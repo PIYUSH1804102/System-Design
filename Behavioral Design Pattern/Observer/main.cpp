@@ -20,7 +20,7 @@ public:
     }
     void notify(string msg)
     {
-        cout << "User " << UserId << " received msg" << endl;
+        cout << "User " << UserId << " received msg " << msg << endl;
     }
 };
 
